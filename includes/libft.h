@@ -6,7 +6,7 @@
 /*   By: rmaury <rmaury@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/04 17:07:05 by rmaury            #+#    #+#             */
-/*   Updated: 2015/03/24 18:39:46 by rmaury           ###   ########.fr       */
+/*   Updated: 2015/04/01 17:13:10 by rmaury           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,5 +84,6 @@ void				ft_lst_push_back(t_list **alst, t_list *new);
 void				ft_printtab(char **str);
 int					ft_strcmp_array(char *str, char **array);
 int					ft_tabline_count(char **str);
+char				**ft_tabline_del(char **tab, int pos);
 
 #endif
