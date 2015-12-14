@@ -1,30 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_chartoi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rmaury <rmaury@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2014/11/03 17:09:30 by rmaury            #+#    #+#             */
-/*   Updated: 2015/12/14 15:54:34 by rmaury           ###   ########.fr       */
+/*   Created: 2015/12/11 16:40:59 by rmaury            #+#    #+#             */
+/*   Updated: 2015/12/11 16:42:42 by rmaury           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-void	*ft_memcpy(void *dst, const void *src, size_t n)
+int	ft_chartoi(char c)
 {
-	unsigned char	*d;
-	unsigned char	*s;
-	size_t			i;
+	int nb;
 
-	d = (unsigned char *)dst;
-	s = (unsigned char *)src;
-	i = 0;
-	while (i < n)
-	{
-		d[i] = s[i];
-		i++;
-	}
-	return (dst);
+	nb = c - '0';
+	return (nb);
 }

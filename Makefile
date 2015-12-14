@@ -6,7 +6,7 @@
 #    By: rmaury <rmaury@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/08/19 16:38:24 by rmaury            #+#    #+#              #
-#    Updated: 2015/03/06 16:39:47 by rmaury           ###   ########.fr        #
+#    Updated: 2015/12/11 16:41:59 by rmaury           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -76,6 +76,8 @@ SRC		+= ft_lst_push_back.c
 SRC		+= ft_printtab.c
 SRC		+= ft_strcmp_array.c
 SRC		+= ft_tabline_count.c
+SRC		+= ft_tabline_del.c
+SRC		+= ft_chartoi.c
 
 OBJ		+= $(subst .c,.o,$(SRC))
 
